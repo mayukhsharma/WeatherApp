@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles.css">
+    <title>Weather Site</title>
+</head>
+<body>
+
+   <div class="container">
+       <div class="current_info">
+
+           <div class="date_container">
+
+            <!-- <div class="greeting" id="greeting">
+                Good Afternoon <span id="name" contenteditable="true">mayukh</span>
+             </div>
+             <div class="focus" id="focus">What Is  Your Focus For Today?</div>
+             <div class="focus_ans" id="focus_ans" contenteditable="true">Make cool videos</div> -->
+
+             
+             <div class="time" id="time">
+                Time<span id="am_pm">am/pm</span>
+                </div>
+
+                <div class="date" id="date">
+                Day, Date Month
+                </div>
+                  
+
+                   <div class="other" id="current_weather">
+                      
+                   </div>
+
+               </div>
+            
+
+             <div class="place_container">
+              
+                    <div class="city_country">
+                        <div class="city" id="city">City</div>
+                        <div class="country" id="country">Country</div>
+                      
+                            <button class="button" type="button" onclick="window.location.href='index2.html' ">Search weather for a city</button>
+                    
+                       
+                        </div>
+                 </div>
+                </div>
+      
+       </div>
+
+       <div class="future_forecast">
+        <div class="today" id="current_temp">
+            <div class="image">
+            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather_icon" class="w_icon" id="w_icon"></div>
+            <div class="content" id="content">
+            <div class="day">monday</div>
+            <div class="temp">night : <span id="temp">25.6&#176; c</span></div>
+            <div class="temp">day :<span id="temp"> 35.6&#176; c</span></div>
+            </div>
+        </div>
+
+        <div class="weather_forecast" id="weather_forecast">
+            <div class="weather_forecast_item">
+               <div class="day">tuesday</div>
+               <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather_icon" class="w_icon">
+             
+               <div class="temp">night - 25.6&#176; c</div>
+               <div class="temp">day - 35.6&#176; c</div> 
+            </div>
+
+            <div class="weather_forecast_item">
+               <div class="day">wed</div>
+               <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather_icon" class="w_icon">
+             
+               <div class="temp">night - 25.6&#176; c</div>
+               <div class="temp">day - 35.6&#176; c</div> 
+            </div>
+
+            <div class="weather_forecast_item">
+               <div class="day">thurs</div>
+               <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather_icon" class="w_icon">
+             
+               <div class="temp">night - 25.6&#176; c</div>
+               <div class="temp">day - 35.6&#176; c</div> 
+            </div>
+
+            <div class="weather_forecast_item">
+               <div class="day">fri</div>
+               <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather_icon" class="w_icon">
+             
+               <div class="temp">night - 25.6&#176; c</div>
+               <div class="temp">day - 35.6&#176; c</div> 
+            </div>
+
+            <div class="weather_forecast_item">
+               <div class="day">sat</div>
+               <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="weather_icon" class="w_icon">
+             
+               <div class="temp">night - 25.6&#176; c</div>
+               <div class="temp">day - 35.6&#176; c</div> 
+            </div>
+
+        </div>
+    </div>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js" integrity="sha512-qTXRIMyZIFb8iQcfjXWCO8+M5Tbc38Qi5WzdPOYZHIlZpzBHG3L3by84BBBOiRGiEb7KKtAOAs5qYdUiZiQNNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <script src="index.js"></script> 
+</body>
+</html>
