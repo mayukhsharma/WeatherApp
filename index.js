@@ -8,7 +8,7 @@ const currentTempEl=document.getElementById('current_temp');
 
 const days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 const months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-const api_key='626638e571a035d61fe04adb3e431166';
+const api_key='';
 
 setInterval(  function()
 {
